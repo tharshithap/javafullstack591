@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout | Clickkart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: url("https://static.vecteezy.com/system/resources/previews/029/840/418/large_2x/e-commerce-shopping-cart-with-multiple-products-a-sunlit-abstract-background-e-commerce-concept-ai-generative-free-photo.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .navbar { background-color: #2d8cde; }
+    .checkout-section { background-color: white; }
+  </style>
+  <form action="confirmpage.html">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Clickkart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./home1.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./shopnow.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="./cart.html">Cart</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Checkout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div class="container mt-3 mb-5">
+    <div class="checkout-section p-4 rounded">
+      <h2 class="mb-4">Checkout</h2>
+      <div class="row">
+        
+        <div class="col-lg-7">
+          <form>
+            <h5 class="mb-3">Shipping Address</h5>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+              <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" required>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" id="city" required>
+              </div>
+              <div class="col-md-6">
+                <label for="pincode" class="form-label">Pincode</label>
+                <input type="text" class="form-control" id="pincode" required>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <h5 class="mb-3">Payment Method</h5>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="paymentMethod" id="cod" checked>
+              <label class="form-check-label" for="cod">Cash on Delivery</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="radio" name="paymentMethod" id="card">
+              <label class="form-check-label" for="card">Credit/Debit Card</label>
+            </div>
+            <div class="form-check mb-4">
+              <input class="form-check-input" type="radio" name="paymentMethod" id="upi">
+              <label class="form-check-label" for="upi">UPI</label>
+            </div>
+            <button type="placeorder" class="btn btn-success w-100">Place Order</button>
+          </form>
+        </div>
+        
+        <div class="col-lg-5 mt-4 mt-lg-0">
+          <div class="card bg-light">
+            <div class="card-body">
+              <h5>Order Summary</h5>
+              <div class="d-flex justify-content-between">
+                <span>Smartphone x1</span>
+                <span>₹59,999</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Headphones x1</span>
+                <span>₹3,299</span>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <span>Subtotal:</span>
+                <span>₹63,298</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Shipping:</span>
+                <span>₹0</span>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <span><strong>Total:</strong></span>
+                <span><strong>₹63,298</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </form>
+</body>
+</html>
+
+
+

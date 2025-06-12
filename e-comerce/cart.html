@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cart | Clickart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: url("https://static.vecteezy.com/system/resources/previews/029/840/418/large_2x/e-commerce-shopping-cart-with-multiple-products-a-sunlit-abstract-background-e-commerce-concept-ai-generative-free-photo.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .navbar { background-color: #2d8cde; }
+    .cart-section { background-color: white; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Clickkart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./home1.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./proceedtocheckout.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Cart</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cart Section -->
+  <div class="container mt-3 mb-5">
+    <div class="cart-section p-4 rounded">
+      <h2 class="mb-4">Your Cart</h2>
+      <div class="border-bottom py-3">
+        <div class="row align-items-center">
+          <div class="col-2">
+            <img src="https://static.iphoned.nl/orca/products/23030/apple-iphone-16-pro-max.png" alt="Smartphone" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <h5>Smartphone</h5>
+            <p class="mb-0">Latest model with advanced features.</p>
+          </div>
+          <div class="col-2 text-center">
+            <label class="form-label">Qty:</label>
+            <input type="number" value="1" min="1" class="form-control">
+          </div>
+          <div class="col-2 text-end">
+            <p class="fw-bold mb-0">₹59,999</p>
+            <a href="#" class="btn btn-sm btn-outline-danger">Remove</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom py-3">
+        <div class="row align-items-center">
+          <div class="col-2">
+            <img src="https://nosco.fra1.digitaloceanspaces.com/listings/2023/10/10/11/19721%2010102023%20877786%20[nkkP].jpeg" alt="Headphones" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <h5>Headphones</h5>
+            <p class="mb-0">High quality sound and comfort.</p>
+          </div>
+          <div class="col-2 text-center">
+            <label class="form-label">Qty:</label>
+            <input type="number" value="1" min="1" class="form-control">
+          </div>
+          <div class="col-2 text-end">
+            <p class="fw-bold mb-0">₹3,299</p>
+            <a href="#" class="btn btn-sm btn-outline-danger">Remove</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <div class="row">
+          <div class="col-8"></div>
+          <div class="col-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5>Order Summary</h5>
+                <div class="d-flex justify-content-between">
+                  <span>Subtotal:</span>
+                  <span>₹63,298</span>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span>Shipping:</span>
+                  <span>₹0</span>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <span><strong>Total:</strong></span>
+                  <span><strong>₹63,298</strong></span>
+                </div>
+                <!-- Updated: Proceed to Checkout as a link -->
+                <a href="proceedtocheckout.html" class="btn btn-primary w-100 mt-3">Proceed to Checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (for navbar toggle) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
