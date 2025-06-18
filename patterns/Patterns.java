@@ -1,5 +1,5 @@
 /*
-class Patterns
+1.class Patterns
 {
 public static void main(String []args)
 {
@@ -22,7 +22,7 @@ Output:
 ******* */
 
 /*
-class Patterns
+2.class Patterns
 {
 public static void main(String []args)
 {
@@ -44,7 +44,7 @@ Output:
 55555 */
 
 /*
-class Patterns
+3.class Patterns
 {
 public static void main(String[] args)
 {
@@ -67,7 +67,7 @@ Output:
 
 /*
 
-class Patterns{
+4.class Patterns{
 public static void main(String[] args){
 int n=1;
 for(int  i=1;i<=5;i++)
@@ -88,7 +88,7 @@ Output:
 21 22 23 24 25*/
 
 /*
-class Patterns{
+5.class Patterns{
 public static void main(String []args){
 int n=1;
 for(int i=1;i<=5;i++){
@@ -108,7 +108,8 @@ Output:
 31 33 35 37 39
 41 43 45 47 49*/
 
-/*class Patterns{
+/*
+6.class Patterns{
 public static void main(String []args){
 for(int i=0;i<5;i++){
 for(int j=0;j<5;j++){
@@ -125,7 +126,8 @@ Output:
 10101
 10101*/
 
-/*class Patterns{
+/*
+7.class Patterns{
 public static void main(String[]args){
 for(int i=1;i<=5;i++){
 for(int j=1;j<=5-i;j++){
@@ -144,7 +146,8 @@ Output:
   * * *
  * * * *
 * * * * * */ 
-/*class Patterns{
+/*
+8.class Patterns{
 public static void main(String[]args){
 for(int i=1;i<=5;i++){
 for(int j=1;j<=5-i;j++){
@@ -164,7 +167,8 @@ Output:
  2 4 6 8
 2 4 6 8 10*/
 
-/* class Patterns
+/*
+9.class Patterns
 public static void main(String[]args){
 int n=1;
 for(int i=1;i<=5;i++)
@@ -194,7 +198,8 @@ Output:
 
 3 4 5 6 7*/
 
-/*class Patterns{
+/*
+10.class Patterns{
 public static void main(String[]args){
 String str="INDIA";
 for(int i=1;i<=str.length();i++){
@@ -209,7 +214,8 @@ IND
 INDI
 INDIA*/
 
-/* class Patterns{
+/* 
+11.class Patterns{
     public static void main(String[] args) {
         int n = 5;
         for (int i = 1; i <= n; i++) {
@@ -228,7 +234,8 @@ Output:
  *******
 ********* */
 
-/*class Patterns {
+/*
+12.class Patterns {
     public static void main(String[] args) {
         int n = 4;
 for (int i = 1; i <= n; i++) {
@@ -260,7 +267,8 @@ Output:
     * * *
        *     */
 
-/* class Patterns {
+/* 
+13.class Patterns {
     public static void main(String[] args) {
         int n = 4;
 for (int i = 0; i < n; i++) {
@@ -297,7 +305,8 @@ output:
    *
 */
 
-/* class Patterns {
+/*
+14.class Patterns {
 public static void main(String[] args) {
 int n = 5; 
  for (int i = 1; i <= n; i++) {
@@ -313,12 +322,13 @@ System.out.println();
 }
 Output:
 * * * * *
-*          *
-*          *
-*          *
+*        *
+*        *
+*        *
 * * * * *   */
 
-/*class Patterns{
+/*
+15.class Patterns{
 public static void main(String[] args) {
  int n = 7;
  int mid = n / 2;
@@ -343,7 +353,8 @@ Output:
       *
       * */
 
-/* class Patterns
+/*
+16.class Patterns
 {
  public static void main(String[] args) 
 {
@@ -371,7 +382,8 @@ Output:
 *     *
 */
 
-/* class Patterns {
+/* 
+17.class Patterns {
 public static void main(String[] args) {
 int n = 7; 
 for (int i = 1; i <= n; i++) {
@@ -388,14 +400,15 @@ System.out.println();
 }
 Output:
 * * * * * * *
-*      *         *
-*      *         *
+*      *     *
+*      *     *
 * * * * * * *
-*     *         *
-*     *         *
-* * * * * * * */
+*     *      *
+*     *      *
+* * * * * * *  */
 
-/*class Patterns {
+/*
+18.class Patterns {
  public static void main(String[] args) {
 int n = 7;
 for (int i = n; i >= 1; i--) {
@@ -419,7 +432,8 @@ Output:
 * *
 *         */
 
-/*class Patterns{
+/*
+19.class Patterns{
 public static void main(String[] args) {
 int n = 5;
 for (int i = 0; i <= n; i++) {
@@ -438,7 +452,8 @@ Output:
 *****5
 */
 
-class Patterns {
+/*
+20.class Patterns {
  public static void main(String[] args) {
  int n = 7;
 for (int i = 1; i <= n; i++) {
@@ -464,5 +479,5 @@ Output:
 *     *
 *       *
 *         *
-*           *
+*           *  */
 
