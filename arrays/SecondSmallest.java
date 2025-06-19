@@ -1,24 +1,44 @@
 import java.util.Scanner;
- class SecondSmallest {
+
+class SecondSmallest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+    
         System.out.print("Enter size: ");
         int n = sc.nextInt();
+
+       
+        if(n < 2) {
+            System.out.println("Array should have at least two elements.");
+            return;
+        }
+
         int arr[] = new int[n];
+
+       
         System.out.println("Enter elements:");
-        for(int i=0; i<n; i++) 
-{
-arr[i] = sc.nextInt();
-}
-        int first = Integer.MAX_VALUE, second = Integer.MAX_VALUE;
-        for(int num : arr) {
-            if(num < first) {
+        for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        int first = Integer.Max_VALUE, second = Integer.Max_VALUE;
+
+       
+        for(int i = 0; i < n; i++) {
+            if(arr[i] < first) {
                 second = first;
-                first = num;
-            } else if(num < second && num != first) {
-                second = num;
+                first = arr[i];
+            } else if(arr[i] < second && arr[i] != first) {
+                second = arr[i];
             }
         }
-        System.out.println("Second smallest: " + second);
+
+   
+        if(second == Integer.MAX_VALUE) {
+            System.out.println("No second smallest element (all elements may be equal).");
+        } else {
+            System.out.println("Second smallest: " + second);
+        }
     }
 }
