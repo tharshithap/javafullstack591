@@ -4,7 +4,7 @@ class Insert {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size: ");
         int n = sc.nextInt();
-        int[] arr = new int[n+1];
+        int []arr = new int[n+1];
         System.out.println("Enter elements:");
         for(int i=0; i<n; i++) 
 {
