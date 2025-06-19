@@ -4,7 +4,7 @@ class CommonValues {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of first array: ");
         int n = sc.nextInt();
-        int[] arr1 = new int[n];
+        int arr1[] = new int[n];
         System.out.println("Enter elements of first array:");
         for(int i=0; i<n; i++) 
 {
