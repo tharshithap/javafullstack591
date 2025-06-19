@@ -10,7 +10,7 @@ import java.util.Scanner;
 {
 arr[i] = sc.nextInt();
 }
-        int[] copy = new int[n];
+        int copy[] = new int[n];
         for(int i=0; i<n; i++) 
 {
 copy[i] = arr[i];
