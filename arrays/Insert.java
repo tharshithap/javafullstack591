@@ -5,7 +5,7 @@ class MissingNumber {
         Scanner sc = new Scanner(System.in);
 System.out.println("Enter the size:");
         int n = sc.nextInt(); 
-        int[] arr = new int[n];
+        int arr[] = new int[n];
 
         System.out.println("Enter 99 numbers from 1 to 100 (one number is missing):");
         int sum = 0;
