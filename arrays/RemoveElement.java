@@ -4,7 +4,7 @@ import java.util.Scanner;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size: ");
         int n = sc.nextInt();
-        int[] arr = new int[n];
+        int arr[] = new int[n];
         System.out.println("Enter elements:");
         for(int i=0; i<n; i++)
 {
