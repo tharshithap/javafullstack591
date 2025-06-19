@@ -13,18 +13,17 @@ class Contains {
         System.out.print("Enter value to check: ");
         int val = sc.nextInt();
 
-       boolean found = false;
-        for(int i = 0; i < n; i++) {
-            if(arr[i] == val) {
-                found = true;
-                break;
-            }
-        }
-
-        if(found) {
-            System.out.println("Contains: " + val);
-        } else {
-            System.out.println("Does not contain: " + val);
-        }
+       int foundIndex=-1;
+       for(int i = 0; i < n; i++) {
+           if(arr[i]==val){
+               foundIndex=i;
+               break;
+           }
+           if(foundIndex!=-1){
+                System.out.print("Contains ");
     }
+           else{
+                 System.out.print("not contains ");
 }
+       }
+        
