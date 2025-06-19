@@ -1,22 +1,28 @@
 import java.util.Scanner;
-
-class MissingNumber {
+class Insert {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-System.out.println("Enter the size:");
-        int n = sc.nextInt(); 
-        int arr[] = new int[n];
-
-        System.out.println("Enter 99 numbers from 1 to 100 (one number is missing):");
-        int sum = 0;
-
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-            sum += arr[i];
-        }
-
-          int total = 100 * 101 / 2;
-
-        System.out.println("Missing number: " + (total - sum));
+        System.out.print("Enter size: ");
+        int n = sc.nextInt();
+        int arr[] = new int[n+1];
+        System.out.println("Enter elements:");
+        for(int i=0; i<n; i++) 
+            {
+                arr[i] = sc.nextInt();
+            }
+        System.out.print("Enter position: ");
+        int pos = sc.nextInt();
+        System.out.print("Enter value: ");
+        int val = sc.nextInt();
+        for(int i=n; i>pos; i--)
+            {
+                arr[i] = arr[i-1];
+        arr[pos] = val;
+            }
+        System.out.print("Array after insertion: ");
+        for(int i=0; i<=n; i++)
+            {
+                System.out.print(arr[i]+" ");
+            }
     }
 }
