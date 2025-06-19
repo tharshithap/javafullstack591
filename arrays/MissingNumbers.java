@@ -3,7 +3,7 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = 99; 
-        int[] arr = new int[n];
+        int arr[]= new int[n];
         System.out.println("Enter 99 numbers from 1 to 100 (one missing):");
         int sum = 0;
         for(int i=0; i<n; i++) {
