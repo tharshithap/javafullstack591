@@ -1,0 +1,23 @@
+.home-bg {
+  background-image: url('bgimg.jpg');
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.home-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.home-subtitle {
+  font-size: 24px;
+}
+.contact-section {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
